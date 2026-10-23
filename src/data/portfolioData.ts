@@ -1,5 +1,9 @@
 import { Project, Milestone, SkillCategory } from '../types';
 
+const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+
 export const PERSONAL_INFO = {
   name: 'Alex Chen',
   role: 'Full-Stack Developer & UI/UX Designer',
@@ -20,7 +24,7 @@ export const PERSONAL_INFO = {
   github: 'https://github.com',
   timezone: 'Based in San Francisco (Pacific Time)',
   timezoneTag: 'UTC-7 / ACTIVE',
-  avatarImage: '/assets/aistudio/Image_3_3cc8495b.jpeg',
+  avatarImage: `${baseUrl}assets/aistudio/Image_3_3cc8495b.jpeg`,
   hotlinkAvatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC9iIRpdIo0tkSaDiCxeB-mzBzlDDJsKWSR5Yq0yqGzb7wxWjZwMNc6ZYpQAmQKgvEZZPpRoIG3ydNN8o2xqchWEQ7eO9h-sptUizBRf0yZ8YGOr3tgmV0KI72W9ufDJYR_M7femDJEnX55LgiiPfrM536Y8unBDNWJLG0YFs3ke8iqxyjgg_pC8WUkTBNIXUbSYdXpYBrTcxftcKj1PPJIDLiWcYpi0hjDT3WiHFuOfletnMQYzIsYCg',
   logoUrl: 'https://lh3.googleusercontent.com/aida/AEtjO1XgGFfN1zSgJd8wEKdyTZ8EnMW0OaLt1PHu2swzdnfjD_nbdeMBFwE2Wb15e8scjPQIeImhz9y2kQaRAC22yO7vXmVkgyfWJuyfbYnBv6cg0J6ZGFmBw6iok1y1QRJ3O3n_tk-cO9z1G3vhedeyJNKeDe8Lf48i0lmJ14rLhmkE4HRGMBvmKhL_fSfncmXXMpylj2z1hm3fAMBwDxgirL1afr-pUY-JCrs6K6YTzpms01NpdNmVrNU_peQ',
 };
@@ -91,7 +95,7 @@ export const PROJECTS: Project[] = [
     categoryBadge: 'STUDENT PRODUCTIVITY',
     description: 'An intuitive workspace designed for university students to synchronize study timers, organize weekly task kanbans, and eliminate academic burnout.',
     tags: ['UI Design', 'JavaScript', 'Productivity', 'Tailwind CSS'],
-    image: '/assets/aistudio/Image_6_d020b2ab.jpeg',
+    image: `${baseUrl}assets/aistudio/Image_6_d020b2ab.jpeg`,
     hotlinkImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBXjFcSrqzr-ordMNQCKExadL4NWeS3dqvSI_WBQAoSElYDQRdSuyjoL-FXcl24GQZ44fNzheDVYqGDoCbl03vMfC-z3gHjy8tcflVDd0658T3LjiOT3kwOxJU1vdzgAjootuH0p_NMJT5XP6d31HX1mLbRFxAfrrkcV3uLQbKIHfHMpokAY73xC52_7CC0N0FNsXotOG5cIocRpgryo0gypV43fn8F151LoAV03K4XVebt_aFjY9hqHQ',
     githubUrl: 'https://github.com',
     demoUrl: '#',
@@ -111,7 +115,7 @@ export const PROJECTS: Project[] = [
     categoryBadge: 'FINTECH ANALYTICS',
     description: 'A clean financial tracking dashboard featuring interactive monthly savings analytics, category expense breakdown charts, and budget goal pacing.',
     tags: ['React', 'Data Viz', 'Responsive', 'Chart.js'],
-    image: '/assets/aistudio/Image_5_d0df9751.jpeg',
+    image: `${baseUrl}assets/aistudio/Image_5_d0df9751.jpeg`,
     hotlinkImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAxuk6XR6Zi88elY7c-ke2bzTj6PG3H2LydBPGMu4So3eTl0PspYvCIKzZgqfShB_lb2B9X7GIqq0aTgxqDtmrJInF6c5tOgODTHoNPXonRRlsB7ddDOLbCsPvjKwFWx5wMd_tqDSU--mav9HRaUg9z2BhrdX8pHe275T828lEVqxoY_TxNZXeXkaNBsXugr2nPWX3fkTr7qNh9ZYGVEEF5dKtlTgdDsKA4rPhGjVrVF9L5VeVScVUdUg',
     githubUrl: 'https://github.com',
     demoUrl: '#',
@@ -131,7 +135,7 @@ export const PROJECTS: Project[] = [
     categoryBadge: 'CAMPUS COMMERCE',
     description: 'A localized campus platform for university students to securely buy, trade, and discover textbooks, hardware, and dorm essentials.',
     tags: ['Web Dev', 'UX Research', 'Prototyping', 'REST API'],
-    image: '/assets/aistudio/Image_4_9dc7dec6.jpeg',
+    image: `${baseUrl}assets/aistudio/Image_4_9dc7dec6.jpeg`,
     hotlinkImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDgt4MZttKoZUyckjRK-IUX7Iq6kB5VbKJa4f_8lUI6mluqd7KeS45V50kZxxRLG73I2STM7Hg6vn6qaffUhatXzr74g-9VZkkhlKQbYp44UPtqiQDCfKfocfqjmsTcoWNX1It_ApbeDPJCbQWraER7_gDxoZWq1BJqYkoc20FwlqCbr7CxLUYT5QHgcAmbgmXnDdgkX5NdTsqwmxIzZguNTxcQxGV8QPiHoYvH-mYQvxHCLwGC20vnxg',
     githubUrl: 'https://github.com',
     demoUrl: '#',
