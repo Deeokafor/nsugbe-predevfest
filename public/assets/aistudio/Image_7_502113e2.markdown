@@ -1,0 +1,203 @@
+---
+name: Obsidian Blueprint
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#c3c6d7'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#8d90a0'
+  outline-variant: '#434655'
+  surface-tint: '#b4c5ff'
+  primary: '#b4c5ff'
+  on-primary: '#002a78'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#0053db'
+  secondary: '#7bd0ff'
+  on-secondary: '#00354a'
+  secondary-container: '#00a6e0'
+  on-secondary-container: '#00374d'
+  tertiary: '#4edea3'
+  on-tertiary: '#003824'
+  tertiary-container: '#007d55'
+  on-tertiary-container: '#bdffdb'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#c4e7ff'
+  secondary-fixed-dim: '#7bd0ff'
+  on-secondary-fixed: '#001e2c'
+  on-secondary-fixed-variant: '#004c69'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  display:
+    fontFamily: Inter
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.025em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  title-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  code-inline:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: -0.01em
+  code-block:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  label-badge:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-caps:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  margin-desktop: 4rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system expresses the personal portfolio of an ambitious, engineering-focused university student. It communicates technical credibility, engineering precision, and architectural discipline. Inspired by high-craft developer platforms such as Linear, Vercel, and GitHub, the aesthetic balances modern dark minimalism with subtle glassmorphic depth.
+
+The interface evokes confidence and capability without unnecessary ornamentation. It signals to recruiters, engineering managers, and collaborators that the creator builds production-grade software with acute attention to detail.
+
+Key design principles:
+- **Precision over Decoration:** Every border, glow, and monospace tag serves to anchor visual structure or clarify metadata.
+- **Controlled Luminescence:** Deep, matte slate surfaces recede into the canvas, allowing electric blue interactive cues and cyan ambient highlights to guide user focus.
+- **Structured Hierarchy:** Code blocks, macOS-style window artifacts, and pill tags reflect genuine technical tooling.
+
+## Colors
+
+The palette relies on a tiered system of deep slates paired with electric blue and cyan accents, calibrated for dark mode.
+
+### Base Surfaces
+- **Canvas Base (`#0F172A`):** The foundational viewport background.
+- **Card / Surface Default (`#1E293B`):** Structural containers, project cards, and navigation surfaces.
+- **Elevated Container (`#334155`):** Modals, flyouts, code chrome headers, and high-emphasis hover states.
+
+### Accent & Feedback
+- **Primary Electric Blue (`#2563EB`):** Primary interactive triggers, active links, and brand highlights. Hover transitions shift to `#1D4ED8`.
+- **Secondary Cyan Glow (`#38BDF8`):** Subtle ambient badges, focus rings, and high-visibility status tags.
+- **Tertiary Mint Success (`#10B981`):** Live demo indicators, availability beacons ("Open to Work"), and status checkmarks.
+
+### Typography & Ink
+- **High-Contrast Text (`#F8FAFC`):** Primary headings, active item labels, and emphasized code syntax.
+- **Muted Slate Body (`#94A3B8`):** Paragraphs, descriptions, project summaries, and secondary metrics.
+- **Subtle Slate Metadata (`#64748B`):** Timestamps, deactivated states, border guides, and footer fine print.
+- **Subtle Stroke (`#334155` at 50%â€“70% opacity):** Structural delimiters and component borders.
+
+## Typography
+
+Typography establishes an engineering identity through pairing **Inter** for all narrative, editorial, and header content with **JetBrains Mono** for technical data, code blocks, framework chips, and metric readouts.
+
+- Headings use tight letter-spacing and compact line heights to create a clean, modern silhouette.
+- Body text utilizes comfortable line-height ratios (`~1.5x` to `LK
+H[ˆÎMLĞÈX^[Z^™Hİ\İZ[™Y™XYXš[]HÛˆYÚQH\šÈØÜ™Y[œË‚‹H[Û›ÜÜXÙHX™[È[™›Ü˜ÙH\\˜Ø\ÙHİ[[™ÈÚ\™H\›ÜšX]H
+X™[X˜YÙX
+K›İšY[™ÈH\İ[˜İš\İX[ÛÛ˜\İYØZ[œİ˜\œ˜]]™HRHÛÜK‚‚ˆÈÈ^[İ]	ˆÜXÚ[™Â‚•H^[İ]\ÈZ[\›İ[™Hİ[™\™L‹XÛÛ[[ˆ™\ÜÛœÚ]™H›ZYÜšY[›™YÈHX^[][HÛÛZ[™\ˆÚYÙˆLŒˆ\ÈÙY\ÈÛ™ËY›Ü›H›Ú™XİØ\ÙHİYY\È[™ÛÙHØ[İ›İYÚÈÛÛY›ÜX›HÚ][ˆÜ[X[[™K[[™İ›İ[™Ë‚‚ˆÈÈÈ™\ÜÛœÚ]™Hœ™XZÜÚ[Â‹H
+Š“[Øš[H
+Í
+NŠŠˆXÛÛ[[ˆ^[İ]Ú]\™[XX\™Ú[œÈ[™\™[Xİ]\œËˆİXÚÜÈ\›ÈÛÛ[[œËØ\™Ë[™XÚÜXÜÈ™\XØ[K‚‹H
+Š•X›]
+ÍHL
+NŠŠˆXÛÛ[[ˆ^[İ]Ú]œ™[XX\™Ú[œÈ[™K\™[Xİ]\œËˆ›Ú™XİØ\™È˜[œÚ][ÛˆÈX[XÛÛ[[ˆÜšYË‚‹H
+Š‘\ÚİÜ
+#G‚“¢¢¢"Ö6öÇVÖâÆ–÷WB6VçFW&VBv—F‚G&VÖÆFW&ÂÖ&v–ç2æBãW&VÖwWGFW'2â6–FRÖ'’×6–FRFW&Ö–æÂFVÖ÷2æB7–ÖÖWG&–2&ö¦V7B†–v†Æ–v‡G2VævvRgVÆÂw&–B6ö×÷6—F–öâà ¥&‡—F†Ò—2Ö–çF–æVBF‡&÷Vv‚â‚×ö–çB7F–Â7—7FVÓ¢–ææW"6öçF–æW"FF–ær66ÆW2g&öÒ76RÖÖFƒg‚’öâ6ö×7B&FvW2WFò76R×†ÆƒC‚’öâfVGW&VB&ö¦V7B6&G2à ¢22VÆWfF–öâbFWF€ ¤FWF‚–âF†—27—7FVÒ—27&VFVBW6–ærÆ–W&VBÖGFR7W&f6W2æBÇVÖ–æ÷W2G&ç6ÇV6VçB÷fW&Æ—2&F†W"F†â†Vg’G&÷6†F÷w2à ¢2227W&f6RF–W'0¢Ò¢¤6çf2„ÆWfVÂ“¢¢¢W&R3cs$ÂæöâÖ–çFW&7F—fR&6¶w&÷VæBà¢Ò¢¤FVfVÇB6&B„ÆWfVÂ“¢¢¢3S#“4&6ö×ÆVÖVçFVB'’‚&÷&FW"öb333CSVBcR÷6—G’à¢Ò¢¤fÆöF–ærò†÷fW&VB6&B„ÆWfVÂ"“¢¢¢3S#“4&&—6VBv—F‚â–ææW"&–Ò†–v†Æ–v‡B†–ç6WB‚&v&ƒ#C‚Â#SÂ#S"Âã‚–’æB7V'FÆRF&²Öf–VÆB6†F÷s¢‚3‚Ó‚&v&ƒ"ÂbÂ#2Âãr–à¢Ò¢¤÷fW&Æ’æVÇ2bÖöFÇ2„ÆWfVÂ2“¢¢¢g&÷7FVBvÆ726ö×÷6VBöb&v&ƒ3ÂCÂS’ÂãsR–v—F‚g†&6¶G&÷Öf–ÇFW"&ÇW"æB7&—7333CSV&÷&FW"à ¢222Ö&–VçB66VçBvÆ÷w0¤–çFW&7F—fRVÆVÖVçG2WF–Æ—¦R6ögBÂÆ÷rÖ–çFVç6—G’&ÇVRö7–â†Æ÷2Fò6öçfW’7FFS ¢Ò&–Ö'’7F—fRvÆ÷s¢#‚ÓG‚&v&ƒ3rÂ“’Â#3RÂãCR–à¢Ò6V6öæF'’7–âFVÆVÖWG'’vÆ÷s¢g‚ÓG‚&v&ƒSbÂƒ’Â#C‚Âã3R–à ¢226†W0 ¥F†RFW6–vâ7—7FVÒW6W2&÷VæFVBvVöÖWG'’F†B&Ææ6W2g&–VæFÇ’6ögGv&RöÆ—6‚v—F‚Væv–æVW&–ær&V6—6–öâà ¢Ò7FæF&B6&G2æBÖöFÂ6öçF–æW'2V×Æ÷’&÷VæFVB×†Æ†&VÖòg‚’æB&÷VæFVBÓ'†Æ†ãW&VÖò#G‚’f÷"W‡ç6—fR†W&ò6V7F–öç2à¢Òf÷&Ò–çWG2Â–çFW&7F—fRÆ—7B—FV×2ÂæB7FæF&B7F–öâ'WGFöç2W6R&÷VæFVBÖÆv†ãW&VÖò‡‚’à¢Ò7FGW2Fw2Âf–ÇFW"–ÆÇ2ÂæBFV6‚×7F6²&FvW2W6RgVÆÂ–ÆÂ6†W2†&÷VæFVBÖgVÆÆò“““—‚’Fò6öçG&7Bv—F‚&V7FæwVÆ"v–æF÷r6&G2à ¢226ö×öæVçG0 ¢222'WGFöç0¢Ò¢¥&–Ö'“¢¢¢&6¶w&÷VæB3#Sc4T&ÂFW‡B4c„dd6ÂföçBvV–v‡Bcâ7V'FÆRF÷–ææW"†–v†Æ–v‡Bâ†÷fW"7FFRG&ç6—F–öç2Fò3CDTC†v—F‚#‚ÓG‚&v&ƒ3rÂ“’Â#3RÂãR–vÆ÷rà¢Ò¢¥6V6öæF'’ò÷WFÆ–æS¢¢¢&6¶w&÷VæB&v&ƒ3ÂCÂS’Âãb–v—F‚&6¶G&÷&ÇW"Â‚&÷&FW"333CSVƒƒR÷6—G’’ÂFW‡B4c„dd6â†÷fW"7FFS¢&6¶w&÷VæB333CSVÂ&÷&FW"Ö6öÆ÷"3cCsC„&à¢Ò¢¤v†÷7C¢¢¢FW‡B3“D4#†Âæò&÷&FW"â†÷fW"7FFS¢&6¶w&÷VæB&v&ƒSÂcRÂƒRÂãB–ÂFW‡B4c„dd6à ¢2226†—2b&FvW0¢Ò¢¥FV6‚7F6²–ÆÃ¢¢¢Ööæ÷76RföçB†Æ&VÂÖ&FvV’ÂWW&66RÂFF–ærG‚†Â&6¶w&÷VæB&v&ƒ3ÂCÂS’Âã‚–Â&÷&FW"‚6öÆ–B&v&ƒSÂcRÂƒRÂãr–ÂFW‡B33„$Dc†à¢Ò¢¤Æ—fR7FGW2–æF–6F÷#¢¢¢–ÆÂ&FvR6öçF–æ–ærVÇ6–ærw&VVâF÷B†3#“ƒ’æW‡BFò4c„dd6FW‡B‚$d”Ä$ÄRdõ"„•$R"’Âv—F‚6ögB&÷&FW"–â&v&ƒbÂƒRÂ#’Âã#R–à ¢2226öFRv–æF÷rg&ÖP¤7V6–Æ—¦VB6&BGFW&â–ç7—&VB'’FWfVÆ÷W"v÷&·76W3 ¢Ò¢¤†VFW"&#¢¢¢†V–v‡B3g‚Â&6¶w&÷VæB3S#“4&Â&÷GFöÒ&÷&FW"‚6öÆ–B&v&ƒSÂcRÂƒRÂãb–â†÷W6W2F‡&VRÖ4õ2v–æF÷r6öçG&öÇ2…&VB4TcCCCFÂÖ&W"4cS”S&Âw&VVâ3#“ƒÂ‚F–ÖWFW"v—F‚‡‚76–ær’Æ–væVBÆVgBÂÆöæw6–FR6VçFW&VBÖöæ÷76VBf–ÆRF—FÆR†&öG’×6Ö–â3“D4#†’à¢Ò¢¤&öG’&V¢¢¢&6¶w&÷VæB3cs$v—F‚¦WD'&–ç2Ööæö6öFRÆ—7F–æw2Â7–çF‚Ö†–v†Æ–v‡FVBW6–ær6ÆFRÂ7–âÂæBVÆV7G&–2&ÇVRFöæW2à ¢222&ö¦V7BbW‡W&–Væ6R6&G0¢ÒVæ66VB–â3S#“4&v—F‚&÷VæFVB×†ÆÂVæ6Æ÷6VB'’‚&÷&FW"–â&v&ƒSÂcRÂƒRÂãb–à¢Ò–çFW&æÂ7G'V7GW&S¢76–ærW6W276RÖÆvÂv—F‚–çFVw&FVB&ö¦V7BF‡VÖ&æ–ÂÂ†VFÆ–æRÂÖöæ÷76RFV6‚7F6²–ÆÇ2ÂæBW‡FW&æÂ&W÷6—F÷'’öFVÖòÆ–æ·2æ6†÷&VBBF†Rfö÷FW"à¢Ò†÷fW"G&ç6—F–öã¢G&ç6ÆFW2Ó'‚ÆöærF†R’Ö†—2v—F‚&÷&FW"6†–gBFò&v&ƒSbÂƒ’Â#C‚ÂãB–à ¢222f÷&Òf–VÆG2b–çWG0¢Ò¢¤&6R–çWC¢¢¢&6¶w&÷VæB&v&ƒRÂ#2ÂC"Âãr–Â&÷&FW"‚6öÆ–B333CSVÂFW‡B4c„dd6ÂÆ6V†öÆFW"FW‡B3cCsC„&à¢Ò¢¤fö7W27FFS¢¢¢‚&÷&FW"–â33„$Dc†Â—&VBv—F‚â÷WFW"fö7W2×&–ær7‚&v&ƒSbÂƒ’Â#C‚Âã"–â÷WFÆ–æS¢æöæRà ¢222–çFW&7F—fR6VvÖVçFVB6öçG&öÇ2bF'0¢Ò6öçF–æW"W6W23cs$v—F‚&÷VæFVBÖÆvæBG‚FF–ærà¢Ò7F—fRF"W6W2&6¶w&÷VæB3S#“4&ÂFW‡B4c„dd6ÂæB7V'FÆR‚&÷&FW"–â&v&ƒSÂcRÂƒRÂã‚–Âv†–ÆR–æ7F—fRF'2W6RFW‡B3“D4#†öâG&ç7&VçB&6¶w&÷VæG2
